@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <title>Hackathon</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link href="css.css" rel="stylesheet">
+  </head>
+  <body onload = "startTimer()">
+  <div class="wrapper">
+  <div class="stats">
+  <div class="progressbarframe"><div class="progressbar" id="progressbar"><p class="statlabel">Progress:</p><p class="progressnum" id="progressnum">1000 / 1000</p></div></div>
+  </div>
+  <div class="stats">
+    <div class="statframe"><div id="hpbar" style="background-color:#f18962;"class="statbar" id="hpbar"><p class="statlabel">Health:</p><p class="statnum" id="hpnum">100 / 100</p></div></div>
+    <div class="statframe"><div id="happbar" style="background-color:teal;" class="statbar" id="happbar"><p class="statlabel">Happiness:</p><p class="statnum" id="happnum">100 / 100</p></div></div>
+  </div>
+  <div class="main">
+    <div class="output" id="output">Please wait</div>
+  </div>
+  <div class="btn-group1">
+    <button class="button" id="button1">Button1</button>
+    <button class="button" id="button2">Button2</button>
+    <button class="button" id="button3">Button3</button>
+    <button class="button" id="button4">Button4</button>
+  </div>
+</div>
+<script type="text/javascript" src="js/variables.js"></script>
+<script type="text/javascript" src="js/bars.js"></script>
+<script type="text/javascript" src="js/calculations.js"></script>
+<script type="text/javascript" src="js/gui.js"></script>
+<script type="text/javascript" src="js/scenes.js"></script>
+<script type="text/javascript" src="js/random.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>intro();</script>
+</body>
+</html>

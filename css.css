@@ -1,0 +1,111 @@
+
+body {
+  background-color:#7cbde8;
+}
+.wrapper {
+  background-color:red;
+  height:900px;
+  width:900px;
+  margin:auto;
+  margin-top:30px;
+  border-left:10px solid black;
+  border-bottom:10px solid black;
+  border-right:10px solid black;
+}
+.btn-group1 .button {
+    background-color: darkgray; /* Green */
+    border: none;
+    color: black;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin-top:10px;
+    margin-left:10px;
+    width:212.5px;
+    height:50px;
+}
+.btn-group1 .button:hover {
+  background-color: gray;
+}
+.btn-group1 .button:active {
+  background-color:lightgray;
+}
+.btn-group1 {
+  border-top:10px solid black;
+  background-color: navajowhite;
+  height:70px;
+}
+.main {
+  height:650px;
+  width:900px;
+  background-color:navajowhite;
+  border-top:10px solid black;
+  background-color:navajowhite;
+}
+.output{
+  margin:auto;
+}
+.stats {
+  background-color:navajowhite;
+  height:70px;
+  border-top: 10px solid black;
+}
+.statframe {
+  float:left;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 50px;
+  width: 435px;
+  background-color: lightgray;
+}
+.statbar {
+  height: 100%;
+  width:0%;
+}
+.statnum {
+  position:absolute;
+  margin-left:370px;
+  float:right;
+  text-align: right;
+  color: black;
+  font-family: "Times New Roman",times, serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.statlabel {
+  float:left;
+  margin-left:4px;
+  display: block;
+  color: #000000;
+  font-family: "Times New Roman", times, serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.progressbarframe{
+  float:left;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 50px;
+  width: 880px;
+  background-color: lightgray;
+}
+.progressbar{
+  height:100%;
+  width:0px;
+  background-color:#b86fe8;
+}
+.progressnum {
+  position:absolute;
+  margin-left:800px;
+  float:right;
+  text-align: right;
+  color: black;
+  font-family: "Times New Roman",times, serif;
+  font-size: 16px;
+  font-weight: bold;
+}
